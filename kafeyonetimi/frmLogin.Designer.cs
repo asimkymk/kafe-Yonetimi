@@ -42,6 +42,8 @@
             this.btnGirisYap = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.beniHatirla = new Bunifu.Framework.UI.BunifuCheckbox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -66,9 +68,9 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.label2.Font = new System.Drawing.Font("Poppins", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label2.Location = new System.Drawing.Point(375, 76);
+            this.label2.Location = new System.Drawing.Point(375, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 48);
+            this.label2.Size = new System.Drawing.Size(129, 39);
             this.label2.TabIndex = 1;
             this.label2.Text = "Hoşgeldin,";
             // 
@@ -78,9 +80,9 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.label3.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label3.Location = new System.Drawing.Point(378, 124);
+            this.label3.Location = new System.Drawing.Point(378, 102);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(206, 26);
+            this.label3.Size = new System.Drawing.Size(168, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "devam etmek için giriş yap";
             // 
@@ -95,7 +97,7 @@
             this.txtUserName.Font = new System.Drawing.Font("Poppins", 11F);
             this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.txtUserName.isPassword = false;
-            this.txtUserName.Location = new System.Drawing.Point(378, 196);
+            this.txtUserName.Location = new System.Drawing.Point(378, 174);
             this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(288, 52);
@@ -108,9 +110,9 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.label4.Font = new System.Drawing.Font("Poppins Light", 10F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label4.Location = new System.Drawing.Point(377, 166);
+            this.label4.Location = new System.Drawing.Point(377, 144);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 30);
+            this.label4.Size = new System.Drawing.Size(92, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "kullanıcı adı";
             // 
@@ -120,9 +122,9 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.label5.Font = new System.Drawing.Font("Poppins Light", 10F);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label5.Location = new System.Drawing.Point(377, 259);
+            this.label5.Location = new System.Drawing.Point(377, 237);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 30);
+            this.label5.Size = new System.Drawing.Size(41, 25);
             this.label5.TabIndex = 7;
             this.label5.Text = "şifre";
             // 
@@ -137,7 +139,7 @@
             this.txtUserPassword.Font = new System.Drawing.Font("Poppins", 11F);
             this.txtUserPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.txtUserPassword.isPassword = true;
-            this.txtUserPassword.Location = new System.Drawing.Point(378, 289);
+            this.txtUserPassword.Location = new System.Drawing.Point(378, 267);
             this.txtUserPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUserPassword.Name = "txtUserPassword";
             this.txtUserPassword.Size = new System.Drawing.Size(288, 52);
@@ -169,7 +171,7 @@
             this.btnGirisYap.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.btnGirisYap.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.btnGirisYap.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.btnGirisYap.Location = new System.Drawing.Point(382, 353);
+            this.btnGirisYap.Location = new System.Drawing.Point(382, 363);
             this.btnGirisYap.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.btnGirisYap.Name = "btnGirisYap";
             this.btnGirisYap.Size = new System.Drawing.Size(145, 57);
@@ -229,14 +231,42 @@
             this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
             // 
+            // beniHatirla
+            // 
+            this.beniHatirla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.beniHatirla.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.beniHatirla.Checked = true;
+            this.beniHatirla.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.beniHatirla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.beniHatirla.Location = new System.Drawing.Point(382, 330);
+            this.beniHatirla.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.beniHatirla.Name = "beniHatirla";
+            this.beniHatirla.Size = new System.Drawing.Size(20, 20);
+            this.beniHatirla.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.label6.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.label6.Location = new System.Drawing.Point(405, 329);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(89, 25);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "beni hatırla";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.BackgroundImage = global::kafeyonetimi.Properties.Resources.main;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(704, 488);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.beniHatirla);
             this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.btnGirisYap);
@@ -254,6 +284,7 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Shown += new System.EventHandler(this.frmLogin_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,6 +304,8 @@
         private Bunifu.Framework.UI.BunifuThinButton2 btnGirisYap;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
+        private Bunifu.Framework.UI.BunifuCheckbox beniHatirla;
+        private System.Windows.Forms.Label label6;
     }
 }
 

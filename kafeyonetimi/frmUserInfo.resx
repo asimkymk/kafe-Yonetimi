@@ -135,19 +135,13 @@
         I2WkjJSRMlJGykgZKSNlpIyUkTJSRspIGSkjZeRQZvYDv4I2Hcy9gX8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnGirisYap.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJEAAAA5CAYAAAA2l8mgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFBSURBVHhe7dIxSgNhAIRRL7MHML3pJUcQ9Kx2FlpapBKL
-        gCBYeIGVFAo7bEjGv33Fa4Ypv6tpmmYYISKGiYhhImKYiBgmIoaJiGF/EW021/Pz0+P8/XWAs/avL/N2
-        e7OMSEC0jiEtIlo7wTknI/rdYE22IiJq2YqIqGUrIqKWrYiIWrYiImrZioioZSsiopatiIhatiIiatmK
-        iKhlKyKilq2IiFq2IiJq2YqIqGUrIqKWrYiIWrYiImrZioioZSsiopatiIhatiIiatmKiKhlKyKilq2I
-        iFq2IiJq2YqIqGUrIqKWrYiIWrYiImrZioioZSsiopatiIhatiIiatmKiKhlKyKilq2IiFq2IiJq2cpq
-        RHCpRUSH9/3qCU75/HhbRrTb3QqJix0Deri/W0YE/yUihomIYSJimIgYJiIGTfMPJEb8s6dVpYgAAAAA
-        SUVORK5CYII=
-</value>
-  </data>
   <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>161, 17</value>
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="bunifuDragControl2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>301, 17</value>
+  </metadata>
+  <metadata name="bunifuDragControl3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>461, 17</value>
   </metadata>
 </root>
