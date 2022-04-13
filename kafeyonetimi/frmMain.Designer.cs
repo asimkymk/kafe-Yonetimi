@@ -63,7 +63,7 @@
             this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.lblCafeIsim = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDoluluk = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa9)).BeginInit();
@@ -195,7 +195,7 @@
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label11.Location = new System.Drawing.Point(275, 112);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(115, 42);
+            this.label11.Size = new System.Drawing.Size(92, 33);
             this.label11.TabIndex = 36;
             this.label11.Text = "Masalar";
             // 
@@ -218,7 +218,7 @@
             this.lblMasa1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa1.Location = new System.Drawing.Point(283, 242);
             this.lblMasa1.Name = "lblMasa1";
-            this.lblMasa1.Size = new System.Drawing.Size(78, 33);
+            this.lblMasa1.Size = new System.Drawing.Size(62, 26);
             this.lblMasa1.TabIndex = 17;
             this.lblMasa1.Text = "Masa 1";
             // 
@@ -228,7 +228,7 @@
             this.lblMasa2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa2.Location = new System.Drawing.Point(403, 242);
             this.lblMasa2.Name = "lblMasa2";
-            this.lblMasa2.Size = new System.Drawing.Size(83, 33);
+            this.lblMasa2.Size = new System.Drawing.Size(66, 26);
             this.lblMasa2.TabIndex = 19;
             this.lblMasa2.Text = "Masa 2";
             // 
@@ -238,7 +238,7 @@
             this.lblMasa3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa3.Location = new System.Drawing.Point(524, 242);
             this.lblMasa3.Name = "lblMasa3";
-            this.lblMasa3.Size = new System.Drawing.Size(83, 33);
+            this.lblMasa3.Size = new System.Drawing.Size(66, 26);
             this.lblMasa3.TabIndex = 21;
             this.lblMasa3.Text = "Masa 3";
             // 
@@ -248,7 +248,7 @@
             this.lblMasa4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa4.Location = new System.Drawing.Point(644, 242);
             this.lblMasa4.Name = "lblMasa4";
-            this.lblMasa4.Size = new System.Drawing.Size(84, 33);
+            this.lblMasa4.Size = new System.Drawing.Size(66, 26);
             this.lblMasa4.TabIndex = 23;
             this.lblMasa4.Text = "Masa 4";
             // 
@@ -258,7 +258,7 @@
             this.lblMasa5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa5.Location = new System.Drawing.Point(762, 242);
             this.lblMasa5.Name = "lblMasa5";
-            this.lblMasa5.Size = new System.Drawing.Size(84, 33);
+            this.lblMasa5.Size = new System.Drawing.Size(66, 26);
             this.lblMasa5.TabIndex = 25;
             this.lblMasa5.Text = "Masa 5";
             // 
@@ -268,7 +268,7 @@
             this.lblMasa6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa6.Location = new System.Drawing.Point(283, 366);
             this.lblMasa6.Name = "lblMasa6";
-            this.lblMasa6.Size = new System.Drawing.Size(84, 33);
+            this.lblMasa6.Size = new System.Drawing.Size(67, 26);
             this.lblMasa6.TabIndex = 27;
             this.lblMasa6.Text = "Masa 6";
             // 
@@ -278,7 +278,7 @@
             this.lblMasa7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa7.Location = new System.Drawing.Point(403, 366);
             this.lblMasa7.Name = "lblMasa7";
-            this.lblMasa7.Size = new System.Drawing.Size(82, 33);
+            this.lblMasa7.Size = new System.Drawing.Size(65, 26);
             this.lblMasa7.TabIndex = 29;
             this.lblMasa7.Text = "Masa 7";
             // 
@@ -288,7 +288,7 @@
             this.lblMasa8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa8.Location = new System.Drawing.Point(524, 366);
             this.lblMasa8.Name = "lblMasa8";
-            this.lblMasa8.Size = new System.Drawing.Size(84, 33);
+            this.lblMasa8.Size = new System.Drawing.Size(66, 26);
             this.lblMasa8.TabIndex = 31;
             this.lblMasa8.Text = "Masa 8";
             // 
@@ -298,7 +298,7 @@
             this.lblMasa9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa9.Location = new System.Drawing.Point(644, 366);
             this.lblMasa9.Name = "lblMasa9";
-            this.lblMasa9.Size = new System.Drawing.Size(84, 33);
+            this.lblMasa9.Size = new System.Drawing.Size(66, 26);
             this.lblMasa9.TabIndex = 33;
             this.lblMasa9.Text = "Masa 9";
             // 
@@ -308,7 +308,7 @@
             this.lblMasa10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa10.Location = new System.Drawing.Point(760, 366);
             this.lblMasa10.Name = "lblMasa10";
-            this.lblMasa10.Size = new System.Drawing.Size(90, 33);
+            this.lblMasa10.Size = new System.Drawing.Size(71, 26);
             this.lblMasa10.TabIndex = 35;
             this.lblMasa10.Text = "Masa 10";
             // 
@@ -470,28 +470,28 @@
             this.lblCafeIsim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblCafeIsim.Location = new System.Drawing.Point(151, 25);
             this.lblCafeIsim.Name = "lblCafeIsim";
-            this.lblCafeIsim.Size = new System.Drawing.Size(140, 42);
+            this.lblCafeIsim.Size = new System.Drawing.Size(112, 33);
             this.lblCafeIsim.TabIndex = 38;
             this.lblCafeIsim.Text = "cafe_isim";
             // 
-            // label1
+            // lblDoluluk
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins", 14F);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label1.Location = new System.Drawing.Point(394, 96);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 42);
-            this.label1.TabIndex = 39;
-            this.label1.Text = "Masalar";
+            this.lblDoluluk.AutoSize = true;
+            this.lblDoluluk.Font = new System.Drawing.Font("Poppins", 14F);
+            this.lblDoluluk.ForeColor = System.Drawing.Color.Red;
+            this.lblDoluluk.Location = new System.Drawing.Point(364, 112);
+            this.lblDoluluk.Name = "lblDoluluk";
+            this.lblDoluluk.Size = new System.Drawing.Size(92, 33);
+            this.lblDoluluk.TabIndex = 39;
+            this.lblDoluluk.Text = "Masalar";
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(981, 569);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblDoluluk);
             this.Controls.Add(this.lblCafeIsim);
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.label11);
@@ -576,6 +576,6 @@
         private System.Windows.Forms.Label lblMasa1;
         private System.Windows.Forms.PictureBox picMasa1;
         private System.Windows.Forms.Label lblCafeIsim;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDoluluk;
     }
 }

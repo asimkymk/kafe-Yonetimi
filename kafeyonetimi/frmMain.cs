@@ -91,6 +91,8 @@ namespace kafeyonetimi
                     pictureBoxes[table.masano - 1].BackgroundImage = Properties.Resources.table;
                 }
             }
+            lblDoluluk.Text = ((((float)cafe.kafemasasayisi - (float)cafe.kafebosmasasayisi) / (float)cafe.kafemasasayisi)*100.0).ToString() + "%";
+            //lblDoluluk.Text = cafe.kafebosmasasayisi.ToString();
         }
 
         public frmMain(Object user)

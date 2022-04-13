@@ -51,14 +51,14 @@
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1069, 577);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(968, 545);
             this.bunifuGradientPanel1.TabIndex = 0;
             // 
             // frmAddProduct
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1069, 577);
+            this.ClientSize = new System.Drawing.Size(968, 545);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
