@@ -8,5 +8,10 @@ namespace kafeyonetimi.objects
 {
     internal class Table
     {
+        public DateTime createdAt { get; set; }
+        public int masano { get; set; }
+        public int masahesap { get; set; }
+        public string id { get; set; }
+        public string kafelerId { get; set; }
     }
 }

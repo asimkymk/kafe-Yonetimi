@@ -124,30 +124,9 @@
   <data name="bunifuGradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABPSURBVChTjcOxCkBQAIXh80T3ru7KKDYxKSbFpGQwyGCQ
-        h/49gvPVp/e5ceo6D5zatxWnlnnCqXHocaprG5yqqxKniiLHqZQynIox8D/wAcLszuEBUZByAAAAAElF
-        TkSuQmCC
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABOSURBVChTjcMhCoBAAETRucxWt7rVjaJNNAmaBE2CGDaI
+        J/8ewXnwFELAqRgrnEqpxqmcG5zquxanpnHAqXWZcerYN5y6rxOn3qfwv/ABlUzDPb45Rx8AAAAASUVO
+        RK5CYII=
 </value>
   </data>
-  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACMAAAAqCAYAAAA51uKRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFwSURBVFhH7ZetTsRAFIUrkUhcSfrHI/AIPAJy5cqVSByP
-        gUQiKyuRSOTKSuRKODf3kIWZu2l3t3MN8yUnTaZn7pxOp+lMkclk/i1lWV42TbOq6/oV1wHXLa5fExqh
-        AerhX6PGFcudBgpcoNgTi58thHqWB2P5+aDjLfRhFT1TY1VVdxxmGoTYGEUWlcwShzuMzIjVOYUw1prD
-        xsgaSfRqDmnXdd01h/8Lbi62WI/QwOH3yKdnGF0ULWh5f5bRQ9FiRmMfmrwk65QxFDS8W0YvMYaChs/Q
-        4CnGUCyDpxhDsQyeYgzFMniKMRTL4CnGUCyDpxhDQcMuNHiKMRTnH2QkxlDQIFtE0+igkTEUNDwGBk/1
-        jKG0bXtjmFwkP2nG2IMbb6HRQaN5cuDseH9V9xw+BlP2YHRIIow1vSmHMfnrQpDtrDOUbMzRIdl+GEFe
-        ZgX5DTotfZCTPdOK5Y+Hs/Rzzj51ccv5fGN+NZlMZnGK4hvwC5Ie9yQ9wAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>141, 17</value>
-  </metadata>
-  <metadata name="bunifuDragControl2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>301, 17</value>
-  </metadata>
-  <metadata name="bunifuDragControl3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>461, 17</value>
-  </metadata>
 </root>

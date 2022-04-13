@@ -33,9 +33,15 @@ namespace kafeyonetimi
             using (var stream = response.GetResponseStream())
                 pictureBox1.BackgroundImage = Bitmap.FromStream(stream);
             lblUserName.Text = user.username;
-            lblName.Text = user.name + " " + user.surname;
-            lblEmail.Text = user.email;
+            lblName.Text = user.name;
             lblCafeName.Text = cafe.kafename + " - " + cafe.kafeilce + " - " + cafe.kafeil;
+
+        }
+
+        
+
+        private void bunifuGradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
 

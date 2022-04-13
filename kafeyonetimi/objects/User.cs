@@ -13,8 +13,7 @@ namespace kafeyonetimi.objects
         public string username { get; set; }
         public string password { get; set; }
         public string name { get; set; }
-        public string surname { get; set; }
-        public string email { get; set; }
+        public int kafeid { get; set; }
         public string id { get; set; }
 
         public void saveToSettings()
@@ -25,8 +24,6 @@ namespace kafeyonetimi.objects
             Properties.Settings.Default.username = this.username;
             Properties.Settings.Default.password = this.password;
             Properties.Settings.Default.name = this.name;
-            Properties.Settings.Default.surname = this.surname;
-            Properties.Settings.Default.email = this.email;
             Properties.Settings.Default.id = this.id;
             Properties.Settings.Default.Save();
         }

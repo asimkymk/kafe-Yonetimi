@@ -60,8 +60,6 @@ namespace kafeyonetimi
                 activeUser.username = Properties.Settings.Default.username;
                 activeUser.password = Properties.Settings.Default.password;
                 activeUser.name = Properties.Settings.Default.name;
-                activeUser.surname = Properties.Settings.Default.surname;
-                activeUser.email = Properties.Settings.Default.email;
                 activeUser.id = Properties.Settings.Default.id;
                 frmMain frm = new frmMain(activeUser);
                 this.Hide();
