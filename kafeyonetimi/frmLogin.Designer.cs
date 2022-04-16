@@ -41,6 +41,8 @@
             this.btnGirisYap = new Bunifu.Framework.UI.BunifuThinButton2();
             this.beniHatirla = new Bunifu.Framework.UI.BunifuCheckbox();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -197,6 +199,17 @@
             this.label6.Text = "beni hatırla";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.pictureBox1.BackgroundImage = global::kafeyonetimi.Properties.Resources.logo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(595, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(97, 72);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
@@ -205,6 +218,7 @@
             this.BackgroundImage = global::kafeyonetimi.Properties.Resources.main;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(704, 488);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.beniHatirla);
             this.Controls.Add(this.btnGirisYap);
@@ -224,6 +238,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kafe Yönetimi - Giriş Yap";
             this.Shown += new System.EventHandler(this.frmLogin_Shown);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,6 +256,7 @@
         private Bunifu.Framework.UI.BunifuThinButton2 btnGirisYap;
         private Bunifu.Framework.UI.BunifuCheckbox beniHatirla;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -31,10 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.btnUserInfo = new Bunifu.Framework.UI.BunifuTileButton();
             this.label11 = new System.Windows.Forms.Label();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.lblMasa1 = new System.Windows.Forms.Label();
@@ -58,7 +54,11 @@
             this.picMasa3 = new System.Windows.Forms.PictureBox();
             this.picMasa2 = new System.Windows.Forms.PictureBox();
             this.picMasa1 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.btnUserInfo = new Bunifu.Framework.UI.BunifuTileButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa8)).BeginInit();
@@ -69,6 +69,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picMasa3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa1)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuDragControl1
@@ -85,79 +87,6 @@
             this.bunifuDragControl2.TargetControl = this.panel1;
             this.bunifuDragControl2.Vertical = true;
             // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = global::kafeyonetimi.Properties.Resources.leftPanel;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.bunifuTileButton3);
-            this.panel1.Controls.Add(this.bunifuTileButton1);
-            this.panel1.Controls.Add(this.btnUserInfo);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 531);
-            this.panel1.TabIndex = 15;
-            // 
-            // bunifuTileButton3
-            // 
-            this.bunifuTileButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuTileButton3.color = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuTileButton3.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton3.Font = new System.Drawing.Font("Poppins", 10F);
-            this.bunifuTileButton3.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuTileButton3.Image = global::kafeyonetimi.Properties.Resources.exit;
-            this.bunifuTileButton3.ImagePosition = 5;
-            this.bunifuTileButton3.ImageZoom = 50;
-            this.bunifuTileButton3.LabelPosition = 25;
-            this.bunifuTileButton3.LabelText = "Çıkış Yap";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(15, 322);
-            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
-            this.bunifuTileButton3.Name = "bunifuTileButton3";
-            this.bunifuTileButton3.Size = new System.Drawing.Size(77, 71);
-            this.bunifuTileButton3.TabIndex = 19;
-            this.bunifuTileButton3.Click += new System.EventHandler(this.bunifuTileButton3_Click);
-            // 
-            // bunifuTileButton1
-            // 
-            this.bunifuTileButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuTileButton1.color = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuTileButton1.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton1.Font = new System.Drawing.Font("Poppins", 10F);
-            this.bunifuTileButton1.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuTileButton1.Image = global::kafeyonetimi.Properties.Resources.products;
-            this.bunifuTileButton1.ImagePosition = 5;
-            this.bunifuTileButton1.ImageZoom = 50;
-            this.bunifuTileButton1.LabelPosition = 25;
-            this.bunifuTileButton1.LabelText = "Ürün Ekle";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(15, 144);
-            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
-            this.bunifuTileButton1.Name = "bunifuTileButton1";
-            this.bunifuTileButton1.Size = new System.Drawing.Size(77, 71);
-            this.bunifuTileButton1.TabIndex = 17;
-            this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
-            // 
-            // btnUserInfo
-            // 
-            this.btnUserInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.btnUserInfo.color = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.btnUserInfo.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.btnUserInfo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUserInfo.Font = new System.Drawing.Font("Poppins", 10F);
-            this.btnUserInfo.ForeColor = System.Drawing.Color.Gray;
-            this.btnUserInfo.Image = global::kafeyonetimi.Properties.Resources.user;
-            this.btnUserInfo.ImagePosition = 5;
-            this.btnUserInfo.ImageZoom = 50;
-            this.btnUserInfo.LabelPosition = 25;
-            this.btnUserInfo.LabelText = "Bilgilerin";
-            this.btnUserInfo.Location = new System.Drawing.Point(15, 233);
-            this.btnUserInfo.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
-            this.btnUserInfo.Name = "btnUserInfo";
-            this.btnUserInfo.Size = new System.Drawing.Size(77, 71);
-            this.btnUserInfo.TabIndex = 16;
-            this.btnUserInfo.Click += new System.EventHandler(this.btnUserInfo_Click);
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -173,7 +102,7 @@
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
-            this.bunifuSeparator1.LineThickness = 512;
+            this.bunifuSeparator1.LineThickness = 1024;
             this.bunifuSeparator1.Location = new System.Drawing.Point(282, 144);
             this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
@@ -433,12 +362,97 @@
             this.picMasa1.TabStop = false;
             this.picMasa1.Click += new System.EventHandler(this.picMasa1_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::kafeyonetimi.Properties.Resources.leftPanel;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.bunifuTileButton3);
+            this.panel1.Controls.Add(this.bunifuTileButton1);
+            this.panel1.Controls.Add(this.btnUserInfo);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 531);
+            this.panel1.TabIndex = 15;
+            // 
+            // bunifuTileButton3
+            // 
+            this.bunifuTileButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.bunifuTileButton3.color = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.bunifuTileButton3.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton3.Font = new System.Drawing.Font("Poppins", 10F);
+            this.bunifuTileButton3.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuTileButton3.Image = global::kafeyonetimi.Properties.Resources.exit;
+            this.bunifuTileButton3.ImagePosition = 5;
+            this.bunifuTileButton3.ImageZoom = 50;
+            this.bunifuTileButton3.LabelPosition = 25;
+            this.bunifuTileButton3.LabelText = "Çıkış Yap";
+            this.bunifuTileButton3.Location = new System.Drawing.Point(15, 322);
+            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.bunifuTileButton3.Name = "bunifuTileButton3";
+            this.bunifuTileButton3.Size = new System.Drawing.Size(77, 71);
+            this.bunifuTileButton3.TabIndex = 19;
+            this.bunifuTileButton3.Click += new System.EventHandler(this.bunifuTileButton3_Click);
+            // 
+            // bunifuTileButton1
+            // 
+            this.bunifuTileButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.bunifuTileButton1.color = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.bunifuTileButton1.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton1.Font = new System.Drawing.Font("Poppins", 10F);
+            this.bunifuTileButton1.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuTileButton1.Image = global::kafeyonetimi.Properties.Resources.products;
+            this.bunifuTileButton1.ImagePosition = 5;
+            this.bunifuTileButton1.ImageZoom = 50;
+            this.bunifuTileButton1.LabelPosition = 25;
+            this.bunifuTileButton1.LabelText = "Ürün Ekle";
+            this.bunifuTileButton1.Location = new System.Drawing.Point(15, 144);
+            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.bunifuTileButton1.Name = "bunifuTileButton1";
+            this.bunifuTileButton1.Size = new System.Drawing.Size(77, 71);
+            this.bunifuTileButton1.TabIndex = 17;
+            this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
+            // 
+            // btnUserInfo
+            // 
+            this.btnUserInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.btnUserInfo.color = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
+            this.btnUserInfo.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.btnUserInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUserInfo.Font = new System.Drawing.Font("Poppins", 10F);
+            this.btnUserInfo.ForeColor = System.Drawing.Color.Gray;
+            this.btnUserInfo.Image = global::kafeyonetimi.Properties.Resources.user;
+            this.btnUserInfo.ImagePosition = 5;
+            this.btnUserInfo.ImageZoom = 50;
+            this.btnUserInfo.LabelPosition = 25;
+            this.btnUserInfo.LabelText = "Bilgilerin";
+            this.btnUserInfo.Location = new System.Drawing.Point(15, 233);
+            this.btnUserInfo.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
+            this.btnUserInfo.Name = "btnUserInfo";
+            this.btnUserInfo.Size = new System.Drawing.Size(77, 71);
+            this.btnUserInfo.TabIndex = 16;
+            this.btnUserInfo.Click += new System.EventHandler(this.btnUserInfo_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.pictureBox1.BackgroundImage = global::kafeyonetimi.Properties.Resources.logo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(861, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(108, 85);
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(981, 531);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblDoluluk);
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.label11);
@@ -472,7 +486,6 @@
             this.Text = "Kafe Yönetimi";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.Shown += new System.EventHandler(this.frmMain_Shown);
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picMasa10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa8)).EndInit();
@@ -483,6 +496,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picMasa3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -518,5 +533,6 @@
         private System.Windows.Forms.Label lblMasa1;
         private System.Windows.Forms.PictureBox picMasa1;
         private System.Windows.Forms.Label lblDoluluk;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

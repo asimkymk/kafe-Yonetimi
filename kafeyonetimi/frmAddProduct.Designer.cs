@@ -663,9 +663,9 @@
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label33.Location = new System.Drawing.Point(12, 221);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(98, 25);
+            this.label33.Size = new System.Drawing.Size(66, 25);
             this.label33.TabIndex = 75;
-            this.label33.Text = "Türk Kahvesi";
+            this.label33.Text = "Sandviç";
             // 
             // bunifuCheckbox15
             // 
@@ -699,9 +699,9 @@
             this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label35.Location = new System.Drawing.Point(12, 196);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(59, 25);
+            this.label35.Size = new System.Drawing.Size(98, 25);
             this.label35.TabIndex = 72;
-            this.label35.Text = "Mocha";
+            this.label35.Text = "Sucuklu Tost";
             // 
             // bunifuCheckbox16
             // 
@@ -735,9 +735,9 @@
             this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label37.Location = new System.Drawing.Point(12, 171);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(72, 25);
+            this.label37.Size = new System.Drawing.Size(89, 25);
             this.label37.TabIndex = 69;
-            this.label37.Text = "Espresso";
+            this.label37.Text = "Kaşarlı Tost";
             // 
             // label38
             // 
@@ -771,9 +771,9 @@
             this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label39.Location = new System.Drawing.Point(12, 146);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(87, 25);
+            this.label39.Size = new System.Drawing.Size(129, 25);
             this.label39.TabIndex = 66;
-            this.label39.Text = "Capuccino";
+            this.label39.Text = "Karışık Menemen";
             // 
             // label40
             // 
@@ -807,9 +807,9 @@
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label41.Location = new System.Drawing.Point(12, 121);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(46, 25);
+            this.label41.Size = new System.Drawing.Size(128, 25);
             this.label41.TabIndex = 63;
-            this.label41.Text = "Latte";
+            this.label41.Text = "Sucuklu Yumurta";
             // 
             // label42
             // 
@@ -843,9 +843,9 @@
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label43.Location = new System.Drawing.Point(12, 96);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(87, 25);
+            this.label43.Size = new System.Drawing.Size(83, 25);
             this.label43.TabIndex = 60;
-            this.label43.Text = "Americano";
+            this.label43.Text = "Menemen";
             // 
             // label44
             // 
@@ -879,9 +879,9 @@
             this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.label45.Location = new System.Drawing.Point(12, 71);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(112, 25);
+            this.label45.Size = new System.Drawing.Size(137, 25);
             this.label45.TabIndex = 57;
-            this.label45.Text = "Demleme Çay";
+            this.label45.Text = "Sahanda Yumurta";
             // 
             // label46
             // 
@@ -936,6 +936,7 @@
             // 
             this.bunifuDragControl2.Fixed = true;
             this.bunifuDragControl2.Horizontal = true;
+            this.bunifuDragControl2.TargetControl = null;
             this.bunifuDragControl2.Vertical = true;
             // 
             // label48
