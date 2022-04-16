@@ -55,3 +55,4 @@ C:\Users\asim.kaymak\Documents\GitHub\kafe-Yonetimi\kafeyonetimi\obj\Debug\kafey
 C:\Users\asim.kaymak\Documents\GitHub\kafe-Yonetimi\kafeyonetimi\obj\Debug\kafeyonetimi.pdb
 C:\Users\asim.kaymak\Documents\GitHub\kafe-Yonetimi\kafeyonetimi\obj\Debug\kafeyonetimi.frmAddProduct.resources
 C:\Users\asimk\Documents\GitHub\kafe-Yonetimi\kafeyonetimi\obj\Debug\kafeyonetimi.frmAddProduct.resources
+C:\Users\asimk\Documents\GitHub\kafe-Yonetimi\kafeyonetimi\obj\Debug\kafeyonetimi.frmTableInfo.resources

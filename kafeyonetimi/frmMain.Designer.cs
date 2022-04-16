@@ -29,13 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             this.btnUserInfo = new Bunifu.Framework.UI.BunifuTileButton();
             this.label11 = new System.Windows.Forms.Label();
@@ -50,6 +47,8 @@
             this.lblMasa8 = new System.Windows.Forms.Label();
             this.lblMasa9 = new System.Windows.Forms.Label();
             this.lblMasa10 = new System.Windows.Forms.Label();
+            this.lblCafeIsim = new System.Windows.Forms.Label();
+            this.lblDoluluk = new System.Windows.Forms.Label();
             this.picMasa10 = new System.Windows.Forms.PictureBox();
             this.picMasa9 = new System.Windows.Forms.PictureBox();
             this.picMasa8 = new System.Windows.Forms.PictureBox();
@@ -60,10 +59,6 @@
             this.picMasa3 = new System.Windows.Forms.PictureBox();
             this.picMasa2 = new System.Windows.Forms.PictureBox();
             this.picMasa1 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.lblCafeIsim = new System.Windows.Forms.Label();
-            this.lblDoluluk = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa9)).BeginInit();
@@ -76,11 +71,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picMasa2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMasa1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 5;
-            this.bunifuElipse1.TargetControl = this;
             // 
             // bunifuDragControl1
             // 
@@ -101,7 +91,6 @@
             this.panel1.BackgroundImage = global::kafeyonetimi.Properties.Resources.leftPanel;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.bunifuTileButton3);
-            this.panel1.Controls.Add(this.bunifuTileButton2);
             this.panel1.Controls.Add(this.bunifuTileButton1);
             this.panel1.Controls.Add(this.btnUserInfo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -123,31 +112,12 @@
             this.bunifuTileButton3.ImageZoom = 50;
             this.bunifuTileButton3.LabelPosition = 25;
             this.bunifuTileButton3.LabelText = "Çıkış Yap";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(9, 379);
+            this.bunifuTileButton3.Location = new System.Drawing.Point(9, 346);
             this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.bunifuTileButton3.Name = "bunifuTileButton3";
             this.bunifuTileButton3.Size = new System.Drawing.Size(77, 71);
             this.bunifuTileButton3.TabIndex = 19;
             this.bunifuTileButton3.Click += new System.EventHandler(this.bunifuTileButton3_Click);
-            // 
-            // bunifuTileButton2
-            // 
-            this.bunifuTileButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuTileButton2.color = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuTileButton2.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTileButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton2.Font = new System.Drawing.Font("Poppins", 10F);
-            this.bunifuTileButton2.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuTileButton2.Image = global::kafeyonetimi.Properties.Resources.money;
-            this.bunifuTileButton2.ImagePosition = 5;
-            this.bunifuTileButton2.ImageZoom = 50;
-            this.bunifuTileButton2.LabelPosition = 25;
-            this.bunifuTileButton2.LabelText = "Satış Yap";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(9, 201);
-            this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
-            this.bunifuTileButton2.Name = "bunifuTileButton2";
-            this.bunifuTileButton2.Size = new System.Drawing.Size(77, 71);
-            this.bunifuTileButton2.TabIndex = 18;
             // 
             // bunifuTileButton1
             // 
@@ -162,11 +132,12 @@
             this.bunifuTileButton1.ImageZoom = 50;
             this.bunifuTileButton1.LabelPosition = 25;
             this.bunifuTileButton1.LabelText = "Ürün Ekle";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(9, 112);
+            this.bunifuTileButton1.Location = new System.Drawing.Point(9, 168);
             this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(77, 71);
             this.bunifuTileButton1.TabIndex = 17;
+            this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
             // 
             // btnUserInfo
             // 
@@ -181,7 +152,7 @@
             this.btnUserInfo.ImageZoom = 50;
             this.btnUserInfo.LabelPosition = 25;
             this.btnUserInfo.LabelText = "Bilgilerin";
-            this.btnUserInfo.Location = new System.Drawing.Point(9, 290);
+            this.btnUserInfo.Location = new System.Drawing.Point(9, 257);
             this.btnUserInfo.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnUserInfo.Name = "btnUserInfo";
             this.btnUserInfo.Size = new System.Drawing.Size(77, 71);
@@ -203,18 +174,19 @@
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
-            this.bunifuSeparator1.LineThickness = 4;
+            this.bunifuSeparator1.LineThickness = 64;
             this.bunifuSeparator1.Location = new System.Drawing.Point(282, 144);
             this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(566, 10);
-            this.bunifuSeparator1.TabIndex = 37;
+            this.bunifuSeparator1.TabIndex = 50;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
             // 
             // lblMasa1
             // 
             this.lblMasa1.AutoSize = true;
+            this.lblMasa1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa1.Location = new System.Drawing.Point(283, 242);
             this.lblMasa1.Name = "lblMasa1";
@@ -225,6 +197,7 @@
             // lblMasa2
             // 
             this.lblMasa2.AutoSize = true;
+            this.lblMasa2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa2.Location = new System.Drawing.Point(403, 242);
             this.lblMasa2.Name = "lblMasa2";
@@ -235,6 +208,7 @@
             // lblMasa3
             // 
             this.lblMasa3.AutoSize = true;
+            this.lblMasa3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa3.Location = new System.Drawing.Point(524, 242);
             this.lblMasa3.Name = "lblMasa3";
@@ -245,6 +219,7 @@
             // lblMasa4
             // 
             this.lblMasa4.AutoSize = true;
+            this.lblMasa4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa4.Location = new System.Drawing.Point(644, 242);
             this.lblMasa4.Name = "lblMasa4";
@@ -255,6 +230,7 @@
             // lblMasa5
             // 
             this.lblMasa5.AutoSize = true;
+            this.lblMasa5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa5.Location = new System.Drawing.Point(762, 242);
             this.lblMasa5.Name = "lblMasa5";
@@ -265,6 +241,7 @@
             // lblMasa6
             // 
             this.lblMasa6.AutoSize = true;
+            this.lblMasa6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa6.Location = new System.Drawing.Point(283, 366);
             this.lblMasa6.Name = "lblMasa6";
@@ -275,6 +252,7 @@
             // lblMasa7
             // 
             this.lblMasa7.AutoSize = true;
+            this.lblMasa7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa7.Location = new System.Drawing.Point(403, 366);
             this.lblMasa7.Name = "lblMasa7";
@@ -285,6 +263,7 @@
             // lblMasa8
             // 
             this.lblMasa8.AutoSize = true;
+            this.lblMasa8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa8.Location = new System.Drawing.Point(524, 366);
             this.lblMasa8.Name = "lblMasa8";
@@ -295,6 +274,7 @@
             // lblMasa9
             // 
             this.lblMasa9.AutoSize = true;
+            this.lblMasa9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa9.Location = new System.Drawing.Point(644, 366);
             this.lblMasa9.Name = "lblMasa9";
@@ -305,163 +285,13 @@
             // lblMasa10
             // 
             this.lblMasa10.AutoSize = true;
+            this.lblMasa10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.lblMasa10.Location = new System.Drawing.Point(760, 366);
             this.lblMasa10.Name = "lblMasa10";
             this.lblMasa10.Size = new System.Drawing.Size(71, 26);
             this.lblMasa10.TabIndex = 35;
             this.lblMasa10.Text = "Masa 10";
-            // 
-            // picMasa10
-            // 
-            this.picMasa10.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa10.Location = new System.Drawing.Point(760, 302);
-            this.picMasa10.Name = "picMasa10";
-            this.picMasa10.Size = new System.Drawing.Size(76, 61);
-            this.picMasa10.TabIndex = 34;
-            this.picMasa10.TabStop = false;
-            // 
-            // picMasa9
-            // 
-            this.picMasa9.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa9.Location = new System.Drawing.Point(642, 302);
-            this.picMasa9.Name = "picMasa9";
-            this.picMasa9.Size = new System.Drawing.Size(76, 61);
-            this.picMasa9.TabIndex = 32;
-            this.picMasa9.TabStop = false;
-            // 
-            // picMasa8
-            // 
-            this.picMasa8.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa8.Location = new System.Drawing.Point(522, 302);
-            this.picMasa8.Name = "picMasa8";
-            this.picMasa8.Size = new System.Drawing.Size(76, 61);
-            this.picMasa8.TabIndex = 30;
-            this.picMasa8.TabStop = false;
-            // 
-            // picMasa7
-            // 
-            this.picMasa7.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa7.Location = new System.Drawing.Point(401, 302);
-            this.picMasa7.Name = "picMasa7";
-            this.picMasa7.Size = new System.Drawing.Size(76, 61);
-            this.picMasa7.TabIndex = 28;
-            this.picMasa7.TabStop = false;
-            // 
-            // picMasa6
-            // 
-            this.picMasa6.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa6.Location = new System.Drawing.Point(281, 302);
-            this.picMasa6.Name = "picMasa6";
-            this.picMasa6.Size = new System.Drawing.Size(76, 61);
-            this.picMasa6.TabIndex = 26;
-            this.picMasa6.TabStop = false;
-            // 
-            // picMasa5
-            // 
-            this.picMasa5.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa5.Location = new System.Drawing.Point(760, 178);
-            this.picMasa5.Name = "picMasa5";
-            this.picMasa5.Size = new System.Drawing.Size(76, 61);
-            this.picMasa5.TabIndex = 24;
-            this.picMasa5.TabStop = false;
-            // 
-            // picMasa4
-            // 
-            this.picMasa4.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa4.Location = new System.Drawing.Point(642, 178);
-            this.picMasa4.Name = "picMasa4";
-            this.picMasa4.Size = new System.Drawing.Size(76, 61);
-            this.picMasa4.TabIndex = 22;
-            this.picMasa4.TabStop = false;
-            // 
-            // picMasa3
-            // 
-            this.picMasa3.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa3.Location = new System.Drawing.Point(522, 178);
-            this.picMasa3.Name = "picMasa3";
-            this.picMasa3.Size = new System.Drawing.Size(76, 61);
-            this.picMasa3.TabIndex = 20;
-            this.picMasa3.TabStop = false;
-            // 
-            // picMasa2
-            // 
-            this.picMasa2.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa2.Location = new System.Drawing.Point(401, 178);
-            this.picMasa2.Name = "picMasa2";
-            this.picMasa2.Size = new System.Drawing.Size(76, 61);
-            this.picMasa2.TabIndex = 18;
-            this.picMasa2.TabStop = false;
-            // 
-            // picMasa1
-            // 
-            this.picMasa1.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
-            this.picMasa1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picMasa1.Location = new System.Drawing.Point(281, 178);
-            this.picMasa1.Name = "picMasa1";
-            this.picMasa1.Size = new System.Drawing.Size(76, 61);
-            this.picMasa1.TabIndex = 16;
-            this.picMasa1.TabStop = false;
-            // 
-            // bunifuThinButton22
-            // 
-            this.bunifuThinButton22.ActiveBorderThickness = 3;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = " _";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton22.IdleBorderThickness = 3;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton22.Location = new System.Drawing.Point(909, -4);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(35, 42);
-            this.bunifuThinButton22.TabIndex = 14;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 3;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = " x";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton21.IdleBorderThickness = 3;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(941, -3);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(35, 42);
-            this.bunifuThinButton21.TabIndex = 13;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // lblCafeIsim
             // 
@@ -479,11 +309,122 @@
             this.lblDoluluk.AutoSize = true;
             this.lblDoluluk.Font = new System.Drawing.Font("Poppins", 14F);
             this.lblDoluluk.ForeColor = System.Drawing.Color.Red;
-            this.lblDoluluk.Location = new System.Drawing.Point(364, 112);
+            this.lblDoluluk.Location = new System.Drawing.Point(364, 111);
             this.lblDoluluk.Name = "lblDoluluk";
-            this.lblDoluluk.Size = new System.Drawing.Size(92, 33);
+            this.lblDoluluk.Size = new System.Drawing.Size(84, 33);
             this.lblDoluluk.TabIndex = 39;
-            this.lblDoluluk.Text = "Masalar";
+            this.lblDoluluk.Text = "doluluk";
+            // 
+            // picMasa10
+            // 
+            this.picMasa10.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa10.Location = new System.Drawing.Point(760, 302);
+            this.picMasa10.Name = "picMasa10";
+            this.picMasa10.Size = new System.Drawing.Size(76, 61);
+            this.picMasa10.TabIndex = 34;
+            this.picMasa10.TabStop = false;
+            // 
+            // picMasa9
+            // 
+            this.picMasa9.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa9.Location = new System.Drawing.Point(642, 302);
+            this.picMasa9.Name = "picMasa9";
+            this.picMasa9.Size = new System.Drawing.Size(76, 61);
+            this.picMasa9.TabIndex = 32;
+            this.picMasa9.TabStop = false;
+            // 
+            // picMasa8
+            // 
+            this.picMasa8.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa8.Location = new System.Drawing.Point(522, 302);
+            this.picMasa8.Name = "picMasa8";
+            this.picMasa8.Size = new System.Drawing.Size(76, 61);
+            this.picMasa8.TabIndex = 30;
+            this.picMasa8.TabStop = false;
+            // 
+            // picMasa7
+            // 
+            this.picMasa7.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa7.Location = new System.Drawing.Point(401, 302);
+            this.picMasa7.Name = "picMasa7";
+            this.picMasa7.Size = new System.Drawing.Size(76, 61);
+            this.picMasa7.TabIndex = 28;
+            this.picMasa7.TabStop = false;
+            // 
+            // picMasa6
+            // 
+            this.picMasa6.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa6.Location = new System.Drawing.Point(281, 302);
+            this.picMasa6.Name = "picMasa6";
+            this.picMasa6.Size = new System.Drawing.Size(76, 61);
+            this.picMasa6.TabIndex = 26;
+            this.picMasa6.TabStop = false;
+            // 
+            // picMasa5
+            // 
+            this.picMasa5.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa5.Location = new System.Drawing.Point(760, 178);
+            this.picMasa5.Name = "picMasa5";
+            this.picMasa5.Size = new System.Drawing.Size(76, 61);
+            this.picMasa5.TabIndex = 24;
+            this.picMasa5.TabStop = false;
+            // 
+            // picMasa4
+            // 
+            this.picMasa4.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa4.Location = new System.Drawing.Point(642, 178);
+            this.picMasa4.Name = "picMasa4";
+            this.picMasa4.Size = new System.Drawing.Size(76, 61);
+            this.picMasa4.TabIndex = 22;
+            this.picMasa4.TabStop = false;
+            // 
+            // picMasa3
+            // 
+            this.picMasa3.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa3.Location = new System.Drawing.Point(522, 178);
+            this.picMasa3.Name = "picMasa3";
+            this.picMasa3.Size = new System.Drawing.Size(76, 61);
+            this.picMasa3.TabIndex = 20;
+            this.picMasa3.TabStop = false;
+            // 
+            // picMasa2
+            // 
+            this.picMasa2.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa2.Location = new System.Drawing.Point(401, 178);
+            this.picMasa2.Name = "picMasa2";
+            this.picMasa2.Size = new System.Drawing.Size(76, 61);
+            this.picMasa2.TabIndex = 18;
+            this.picMasa2.TabStop = false;
+            // 
+            // picMasa1
+            // 
+            this.picMasa1.BackgroundImage = global::kafeyonetimi.Properties.Resources.table;
+            this.picMasa1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMasa1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMasa1.Location = new System.Drawing.Point(281, 178);
+            this.picMasa1.Name = "picMasa1";
+            this.picMasa1.Size = new System.Drawing.Size(76, 61);
+            this.picMasa1.TabIndex = 16;
+            this.picMasa1.TabStop = false;
+            this.picMasa1.Click += new System.EventHandler(this.picMasa1_Click);
             // 
             // frmMain
             // 
@@ -516,11 +457,10 @@
             this.Controls.Add(this.lblMasa1);
             this.Controls.Add(this.picMasa1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.bunifuThinButton22);
-            this.Controls.Add(this.bunifuThinButton21);
             this.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "frmMain";
             this.Load += new System.EventHandler(this.frmMain_Load);
@@ -542,16 +482,11 @@
         }
 
         #endregion
-
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private System.Windows.Forms.Panel panel1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
         private Bunifu.Framework.UI.BunifuTileButton btnUserInfo;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton2;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton1;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
         private System.Windows.Forms.Label label11;

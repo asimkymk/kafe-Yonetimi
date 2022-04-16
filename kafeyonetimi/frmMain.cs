@@ -75,8 +75,10 @@ namespace kafeyonetimi
             return false;
         }
 
-        private void masaGuncelle()
+        public void masaGuncelle()
         {
+            cafeYukle();
+            masalariGetir(cafe.id);
             foreach (var table in tables)
             {
                 if (table.masahesap > 0)
@@ -91,7 +93,18 @@ namespace kafeyonetimi
                     pictureBoxes[table.masano - 1].BackgroundImage = Properties.Resources.table;
                 }
             }
-            lblDoluluk.Text = ((((float)cafe.kafemasasayisi - (float)cafe.kafebosmasasayisi) / (float)cafe.kafemasasayisi)*100.0).ToString() + "%";
+            var dolulukCount = ((((float)cafe.kafemasasayisi - (float)cafe.kafebosmasasayisi) / (float)cafe.kafemasasayisi) * 100.0);
+            if(dolulukCount > 50)
+            {
+                lblDoluluk.Text = ((((float)cafe.kafemasasayisi - (float)cafe.kafebosmasasayisi) / (float)cafe.kafemasasayisi) * 100.0).ToString() + "% doluluk";
+                lblDoluluk.ForeColor = System.Drawing.Color.Red;
+            }
+            else
+            {
+                lblDoluluk.Text = Math.Round(((((float)cafe.kafemasasayisi - (float)cafe.kafebosmasasayisi) / (float)cafe.kafemasasayisi) * 100.0)).ToString() + "% doluluk";
+                lblDoluluk.ForeColor = System.Drawing.Color.Green;
+            }
+            
             //lblDoluluk.Text = cafe.kafebosmasasayisi.ToString();
         }
 
@@ -99,19 +112,13 @@ namespace kafeyonetimi
         {
             this.user = (User)user;
             cafeYukle();
-            if (!masalariGetir(cafe.id))
-            {
-                Application.Exit();
-            }
+            masalariGetir(cafe.id);
+
             
 
             InitializeComponent();
         }
 
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         private void btnUserInfo_Click(object sender, EventArgs e)
         {
@@ -177,5 +184,27 @@ namespace kafeyonetimi
                 masaGuncelle();
             }
         }
+
+        private void bunifuTileButton1_Click(object sender, EventArgs e)
+        {
+            frmAddProduct frmAdd = new frmAddProduct(cafe,tables,this);
+            frmAdd.Show();
+        }
+
+        private void picMasa1_Click(object sender, EventArgs e)
+        {
+            if(tables.ToList()[0].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[0], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
     }
 }

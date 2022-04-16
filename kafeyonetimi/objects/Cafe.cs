@@ -15,6 +15,9 @@ namespace kafeyonetimi.objects
         public string kafeilce { get; set; }
         public int kafemasasayisi { get; set; }
         public int kafebosmasasayisi { get; set; }
+        public string kafetelefon { get; set; }
+        public string kafelinkyorum { get; set; }
+        public string kafelinkkonum { get; set; }
         public string id { get; set; }
     }
 }
