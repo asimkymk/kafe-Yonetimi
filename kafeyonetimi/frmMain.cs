@@ -160,7 +160,7 @@ namespace kafeyonetimi
             }
             else
             {
-                lblCafeIsim.Text = cafe.kafename + " - " + cafe.kafeilce + " - " + cafe.kafeil;
+                this.Text = "Kafe Yönetimi - " + cafe.kafename + " - " + cafe.kafeilce + " - " + cafe.kafeil;
                 labels[0] = lblMasa1;
                 labels[1] = lblMasa2;
                 labels[2] = lblMasa3;
@@ -206,5 +206,289 @@ namespace kafeyonetimi
             }
         }
 
+        private void picMasa2_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[1].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[1], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa1_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[0].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[0], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa2_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[1].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[1], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa3_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[2].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[2], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa3_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[2].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[2], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa4_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[3].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[3], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa4_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[3].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[3], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa5_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[4].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[4], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa5_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[4].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[4], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa6_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[5].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[5], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa6_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[5].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[5], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa7_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[6].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[6], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa7_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[6].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[6], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa8_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[7].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[7], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa8_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[7].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[7], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa9_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[8].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[8], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa9_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[8].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[8], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void picMasa10_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[9].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[9], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
+
+        private void lblMasa10_Click(object sender, EventArgs e)
+        {
+            if (tables.ToList()[9].masahesap == 0)
+            {
+                MessageBox.Show("Bu masa zaten henüz açılmamış", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                frmTableInfo tableInfoForm = new frmTableInfo(tables.ToList()[9], cafe, this);
+                tableInfoForm.Show();
+
+            }
+        }
     }
 }

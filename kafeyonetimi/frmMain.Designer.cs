@@ -47,7 +47,6 @@
             this.lblMasa8 = new System.Windows.Forms.Label();
             this.lblMasa9 = new System.Windows.Forms.Label();
             this.lblMasa10 = new System.Windows.Forms.Label();
-            this.lblCafeIsim = new System.Windows.Forms.Label();
             this.lblDoluluk = new System.Windows.Forms.Label();
             this.picMasa10 = new System.Windows.Forms.PictureBox();
             this.picMasa9 = new System.Windows.Forms.PictureBox();
@@ -96,7 +95,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 569);
+            this.panel1.Size = new System.Drawing.Size(200, 531);
             this.panel1.TabIndex = 15;
             // 
             // bunifuTileButton3
@@ -112,7 +111,7 @@
             this.bunifuTileButton3.ImageZoom = 50;
             this.bunifuTileButton3.LabelPosition = 25;
             this.bunifuTileButton3.LabelText = "Çıkış Yap";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(9, 346);
+            this.bunifuTileButton3.Location = new System.Drawing.Point(15, 322);
             this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.bunifuTileButton3.Name = "bunifuTileButton3";
             this.bunifuTileButton3.Size = new System.Drawing.Size(77, 71);
@@ -132,7 +131,7 @@
             this.bunifuTileButton1.ImageZoom = 50;
             this.bunifuTileButton1.LabelPosition = 25;
             this.bunifuTileButton1.LabelText = "Ürün Ekle";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(9, 168);
+            this.bunifuTileButton1.Location = new System.Drawing.Point(15, 144);
             this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(77, 71);
@@ -152,7 +151,7 @@
             this.btnUserInfo.ImageZoom = 50;
             this.btnUserInfo.LabelPosition = 25;
             this.btnUserInfo.LabelText = "Bilgilerin";
-            this.btnUserInfo.Location = new System.Drawing.Point(9, 257);
+            this.btnUserInfo.Location = new System.Drawing.Point(15, 233);
             this.btnUserInfo.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnUserInfo.Name = "btnUserInfo";
             this.btnUserInfo.Size = new System.Drawing.Size(77, 71);
@@ -174,7 +173,7 @@
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
-            this.bunifuSeparator1.LineThickness = 64;
+            this.bunifuSeparator1.LineThickness = 512;
             this.bunifuSeparator1.Location = new System.Drawing.Point(282, 144);
             this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
@@ -188,121 +187,120 @@
             this.lblMasa1.AutoSize = true;
             this.lblMasa1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa1.Location = new System.Drawing.Point(283, 242);
+            this.lblMasa1.Location = new System.Drawing.Point(288, 242);
             this.lblMasa1.Name = "lblMasa1";
             this.lblMasa1.Size = new System.Drawing.Size(62, 26);
             this.lblMasa1.TabIndex = 17;
             this.lblMasa1.Text = "Masa 1";
+            this.lblMasa1.Click += new System.EventHandler(this.lblMasa1_Click);
             // 
             // lblMasa2
             // 
             this.lblMasa2.AutoSize = true;
             this.lblMasa2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa2.Location = new System.Drawing.Point(403, 242);
+            this.lblMasa2.Location = new System.Drawing.Point(408, 242);
             this.lblMasa2.Name = "lblMasa2";
             this.lblMasa2.Size = new System.Drawing.Size(66, 26);
             this.lblMasa2.TabIndex = 19;
             this.lblMasa2.Text = "Masa 2";
+            this.lblMasa2.Click += new System.EventHandler(this.lblMasa2_Click);
             // 
             // lblMasa3
             // 
             this.lblMasa3.AutoSize = true;
             this.lblMasa3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa3.Location = new System.Drawing.Point(524, 242);
+            this.lblMasa3.Location = new System.Drawing.Point(529, 242);
             this.lblMasa3.Name = "lblMasa3";
             this.lblMasa3.Size = new System.Drawing.Size(66, 26);
             this.lblMasa3.TabIndex = 21;
             this.lblMasa3.Text = "Masa 3";
+            this.lblMasa3.Click += new System.EventHandler(this.lblMasa3_Click);
             // 
             // lblMasa4
             // 
             this.lblMasa4.AutoSize = true;
             this.lblMasa4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa4.Location = new System.Drawing.Point(644, 242);
+            this.lblMasa4.Location = new System.Drawing.Point(649, 242);
             this.lblMasa4.Name = "lblMasa4";
             this.lblMasa4.Size = new System.Drawing.Size(66, 26);
             this.lblMasa4.TabIndex = 23;
             this.lblMasa4.Text = "Masa 4";
+            this.lblMasa4.Click += new System.EventHandler(this.lblMasa4_Click);
             // 
             // lblMasa5
             // 
             this.lblMasa5.AutoSize = true;
             this.lblMasa5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa5.Location = new System.Drawing.Point(762, 242);
+            this.lblMasa5.Location = new System.Drawing.Point(767, 242);
             this.lblMasa5.Name = "lblMasa5";
             this.lblMasa5.Size = new System.Drawing.Size(66, 26);
             this.lblMasa5.TabIndex = 25;
             this.lblMasa5.Text = "Masa 5";
+            this.lblMasa5.Click += new System.EventHandler(this.lblMasa5_Click);
             // 
             // lblMasa6
             // 
             this.lblMasa6.AutoSize = true;
             this.lblMasa6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa6.Location = new System.Drawing.Point(283, 366);
+            this.lblMasa6.Location = new System.Drawing.Point(288, 366);
             this.lblMasa6.Name = "lblMasa6";
             this.lblMasa6.Size = new System.Drawing.Size(67, 26);
             this.lblMasa6.TabIndex = 27;
             this.lblMasa6.Text = "Masa 6";
+            this.lblMasa6.Click += new System.EventHandler(this.lblMasa6_Click);
             // 
             // lblMasa7
             // 
             this.lblMasa7.AutoSize = true;
             this.lblMasa7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa7.Location = new System.Drawing.Point(403, 366);
+            this.lblMasa7.Location = new System.Drawing.Point(408, 366);
             this.lblMasa7.Name = "lblMasa7";
             this.lblMasa7.Size = new System.Drawing.Size(65, 26);
             this.lblMasa7.TabIndex = 29;
             this.lblMasa7.Text = "Masa 7";
+            this.lblMasa7.Click += new System.EventHandler(this.lblMasa7_Click);
             // 
             // lblMasa8
             // 
             this.lblMasa8.AutoSize = true;
             this.lblMasa8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa8.Location = new System.Drawing.Point(524, 366);
+            this.lblMasa8.Location = new System.Drawing.Point(529, 366);
             this.lblMasa8.Name = "lblMasa8";
             this.lblMasa8.Size = new System.Drawing.Size(66, 26);
             this.lblMasa8.TabIndex = 31;
             this.lblMasa8.Text = "Masa 8";
+            this.lblMasa8.Click += new System.EventHandler(this.lblMasa8_Click);
             // 
             // lblMasa9
             // 
             this.lblMasa9.AutoSize = true;
             this.lblMasa9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa9.Location = new System.Drawing.Point(644, 366);
+            this.lblMasa9.Location = new System.Drawing.Point(649, 366);
             this.lblMasa9.Name = "lblMasa9";
             this.lblMasa9.Size = new System.Drawing.Size(66, 26);
             this.lblMasa9.TabIndex = 33;
             this.lblMasa9.Text = "Masa 9";
+            this.lblMasa9.Click += new System.EventHandler(this.lblMasa9_Click);
             // 
             // lblMasa10
             // 
             this.lblMasa10.AutoSize = true;
             this.lblMasa10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblMasa10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblMasa10.Location = new System.Drawing.Point(760, 366);
+            this.lblMasa10.Location = new System.Drawing.Point(765, 366);
             this.lblMasa10.Name = "lblMasa10";
             this.lblMasa10.Size = new System.Drawing.Size(71, 26);
             this.lblMasa10.TabIndex = 35;
             this.lblMasa10.Text = "Masa 10";
-            // 
-            // lblCafeIsim
-            // 
-            this.lblCafeIsim.AutoSize = true;
-            this.lblCafeIsim.Font = new System.Drawing.Font("Poppins", 14F);
-            this.lblCafeIsim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.lblCafeIsim.Location = new System.Drawing.Point(151, 25);
-            this.lblCafeIsim.Name = "lblCafeIsim";
-            this.lblCafeIsim.Size = new System.Drawing.Size(112, 33);
-            this.lblCafeIsim.TabIndex = 38;
-            this.lblCafeIsim.Text = "cafe_isim";
+            this.lblMasa10.Click += new System.EventHandler(this.lblMasa10_Click);
             // 
             // lblDoluluk
             // 
@@ -325,6 +323,7 @@
             this.picMasa10.Size = new System.Drawing.Size(76, 61);
             this.picMasa10.TabIndex = 34;
             this.picMasa10.TabStop = false;
+            this.picMasa10.Click += new System.EventHandler(this.picMasa10_Click);
             // 
             // picMasa9
             // 
@@ -336,6 +335,7 @@
             this.picMasa9.Size = new System.Drawing.Size(76, 61);
             this.picMasa9.TabIndex = 32;
             this.picMasa9.TabStop = false;
+            this.picMasa9.Click += new System.EventHandler(this.picMasa9_Click);
             // 
             // picMasa8
             // 
@@ -347,6 +347,7 @@
             this.picMasa8.Size = new System.Drawing.Size(76, 61);
             this.picMasa8.TabIndex = 30;
             this.picMasa8.TabStop = false;
+            this.picMasa8.Click += new System.EventHandler(this.picMasa8_Click);
             // 
             // picMasa7
             // 
@@ -358,6 +359,7 @@
             this.picMasa7.Size = new System.Drawing.Size(76, 61);
             this.picMasa7.TabIndex = 28;
             this.picMasa7.TabStop = false;
+            this.picMasa7.Click += new System.EventHandler(this.picMasa7_Click);
             // 
             // picMasa6
             // 
@@ -369,6 +371,7 @@
             this.picMasa6.Size = new System.Drawing.Size(76, 61);
             this.picMasa6.TabIndex = 26;
             this.picMasa6.TabStop = false;
+            this.picMasa6.Click += new System.EventHandler(this.picMasa6_Click);
             // 
             // picMasa5
             // 
@@ -380,6 +383,7 @@
             this.picMasa5.Size = new System.Drawing.Size(76, 61);
             this.picMasa5.TabIndex = 24;
             this.picMasa5.TabStop = false;
+            this.picMasa5.Click += new System.EventHandler(this.picMasa5_Click);
             // 
             // picMasa4
             // 
@@ -391,6 +395,7 @@
             this.picMasa4.Size = new System.Drawing.Size(76, 61);
             this.picMasa4.TabIndex = 22;
             this.picMasa4.TabStop = false;
+            this.picMasa4.Click += new System.EventHandler(this.picMasa4_Click);
             // 
             // picMasa3
             // 
@@ -402,6 +407,7 @@
             this.picMasa3.Size = new System.Drawing.Size(76, 61);
             this.picMasa3.TabIndex = 20;
             this.picMasa3.TabStop = false;
+            this.picMasa3.Click += new System.EventHandler(this.picMasa3_Click);
             // 
             // picMasa2
             // 
@@ -413,6 +419,7 @@
             this.picMasa2.Size = new System.Drawing.Size(76, 61);
             this.picMasa2.TabIndex = 18;
             this.picMasa2.TabStop = false;
+            this.picMasa2.Click += new System.EventHandler(this.picMasa2_Click);
             // 
             // picMasa1
             // 
@@ -431,9 +438,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.ClientSize = new System.Drawing.Size(981, 569);
+            this.ClientSize = new System.Drawing.Size(981, 531);
             this.Controls.Add(this.lblDoluluk);
-            this.Controls.Add(this.lblCafeIsim);
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.lblMasa10);
@@ -462,7 +468,8 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.Name = "frmMain";
-            this.Text = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Kafe Yönetimi";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.Shown += new System.EventHandler(this.frmMain_Shown);
             this.panel1.ResumeLayout(false);
@@ -510,7 +517,6 @@
         private System.Windows.Forms.PictureBox picMasa2;
         private System.Windows.Forms.Label lblMasa1;
         private System.Windows.Forms.PictureBox picMasa1;
-        private System.Windows.Forms.Label lblCafeIsim;
         private System.Windows.Forms.Label lblDoluluk;
     }
 }

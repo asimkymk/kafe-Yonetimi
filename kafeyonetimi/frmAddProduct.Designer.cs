@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddProduct));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.beniHatirla = new Bunifu.Framework.UI.BunifuCheckbox();
@@ -106,35 +104,13 @@
             this.label49 = new System.Windows.Forms.Label();
             this.btnGirisYap = new Bunifu.Framework.UI.BunifuThinButton2();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::kafeyonetimi.Properties.Resources.rightPanel;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox1.Location = new System.Drawing.Point(935, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(248, 424);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 26);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Kafe Yönetimi - Ürün Ekle";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Orange;
-            this.label2.Location = new System.Drawing.Point(355, 78);
+            this.label2.Location = new System.Drawing.Point(339, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 26);
             this.label2.TabIndex = 2;
@@ -145,7 +121,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Poppins", 10F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label3.Location = new System.Drawing.Point(355, 104);
+            this.label3.Location = new System.Drawing.Point(339, 71);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(112, 25);
             this.label3.TabIndex = 3;
@@ -158,7 +134,7 @@
             this.beniHatirla.Checked = false;
             this.beniHatirla.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.beniHatirla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.beniHatirla.Location = new System.Drawing.Point(594, 104);
+            this.beniHatirla.Location = new System.Drawing.Point(578, 71);
             this.beniHatirla.Margin = new System.Windows.Forms.Padding(6, 12, 6, 12);
             this.beniHatirla.Name = "beniHatirla";
             this.beniHatirla.Size = new System.Drawing.Size(20, 20);
@@ -170,7 +146,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Poppins", 10F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label4.Location = new System.Drawing.Point(546, 104);
+            this.label4.Location = new System.Drawing.Point(530, 71);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 25);
             this.label4.TabIndex = 15;
@@ -181,7 +157,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Poppins", 10F);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label5.Location = new System.Drawing.Point(538, 129);
+            this.label5.Location = new System.Drawing.Point(522, 96);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 25);
             this.label5.TabIndex = 18;
@@ -194,7 +170,7 @@
             this.bunifuCheckbox1.Checked = false;
             this.bunifuCheckbox1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox1.Location = new System.Drawing.Point(594, 129);
+            this.bunifuCheckbox1.Location = new System.Drawing.Point(578, 96);
             this.bunifuCheckbox1.Margin = new System.Windows.Forms.Padding(9, 24, 9, 24);
             this.bunifuCheckbox1.Name = "bunifuCheckbox1";
             this.bunifuCheckbox1.Size = new System.Drawing.Size(20, 20);
@@ -206,7 +182,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Poppins", 10F);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label6.Location = new System.Drawing.Point(355, 129);
+            this.label6.Location = new System.Drawing.Point(339, 96);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 25);
             this.label6.TabIndex = 16;
@@ -217,7 +193,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Poppins", 10F);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label7.Location = new System.Drawing.Point(538, 154);
+            this.label7.Location = new System.Drawing.Point(522, 121);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 25);
             this.label7.TabIndex = 21;
@@ -230,7 +206,7 @@
             this.bunifuCheckbox2.Checked = false;
             this.bunifuCheckbox2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox2.Location = new System.Drawing.Point(594, 154);
+            this.bunifuCheckbox2.Location = new System.Drawing.Point(578, 121);
             this.bunifuCheckbox2.Margin = new System.Windows.Forms.Padding(14, 48, 14, 48);
             this.bunifuCheckbox2.Name = "bunifuCheckbox2";
             this.bunifuCheckbox2.Size = new System.Drawing.Size(20, 20);
@@ -242,7 +218,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Poppins", 10F);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label8.Location = new System.Drawing.Point(355, 154);
+            this.label8.Location = new System.Drawing.Point(339, 121);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(46, 25);
             this.label8.TabIndex = 19;
@@ -253,7 +229,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Poppins", 10F);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label9.Location = new System.Drawing.Point(355, 179);
+            this.label9.Location = new System.Drawing.Point(339, 146);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(87, 25);
             this.label9.TabIndex = 22;
@@ -266,7 +242,7 @@
             this.bunifuCheckbox3.Checked = false;
             this.bunifuCheckbox3.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox3.Location = new System.Drawing.Point(594, 179);
+            this.bunifuCheckbox3.Location = new System.Drawing.Point(578, 146);
             this.bunifuCheckbox3.Margin = new System.Windows.Forms.Padding(21, 96, 21, 96);
             this.bunifuCheckbox3.Name = "bunifuCheckbox3";
             this.bunifuCheckbox3.Size = new System.Drawing.Size(20, 20);
@@ -278,7 +254,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Poppins", 10F);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label10.Location = new System.Drawing.Point(538, 179);
+            this.label10.Location = new System.Drawing.Point(522, 146);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(47, 25);
             this.label10.TabIndex = 24;
@@ -289,7 +265,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Poppins", 10F);
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label11.Location = new System.Drawing.Point(355, 204);
+            this.label11.Location = new System.Drawing.Point(339, 171);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(72, 25);
             this.label11.TabIndex = 25;
@@ -300,7 +276,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Poppins", 10F);
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label12.Location = new System.Drawing.Point(542, 204);
+            this.label12.Location = new System.Drawing.Point(526, 171);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(43, 25);
             this.label12.TabIndex = 26;
@@ -313,7 +289,7 @@
             this.bunifuCheckbox4.Checked = false;
             this.bunifuCheckbox4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox4.Location = new System.Drawing.Point(594, 204);
+            this.bunifuCheckbox4.Location = new System.Drawing.Point(578, 171);
             this.bunifuCheckbox4.Margin = new System.Windows.Forms.Padding(32, 192, 32, 192);
             this.bunifuCheckbox4.Name = "bunifuCheckbox4";
             this.bunifuCheckbox4.Size = new System.Drawing.Size(20, 20);
@@ -325,7 +301,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Poppins", 10F);
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label13.Location = new System.Drawing.Point(355, 229);
+            this.label13.Location = new System.Drawing.Point(339, 196);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(59, 25);
             this.label13.TabIndex = 28;
@@ -336,7 +312,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Poppins", 10F);
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label14.Location = new System.Drawing.Point(542, 229);
+            this.label14.Location = new System.Drawing.Point(526, 196);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(43, 25);
             this.label14.TabIndex = 29;
@@ -349,7 +325,7 @@
             this.bunifuCheckbox5.Checked = false;
             this.bunifuCheckbox5.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox5.Location = new System.Drawing.Point(594, 229);
+            this.bunifuCheckbox5.Location = new System.Drawing.Point(578, 196);
             this.bunifuCheckbox5.Margin = new System.Windows.Forms.Padding(48, 384, 48, 384);
             this.bunifuCheckbox5.Name = "bunifuCheckbox5";
             this.bunifuCheckbox5.Size = new System.Drawing.Size(20, 20);
@@ -361,7 +337,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Poppins", 10F);
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label15.Location = new System.Drawing.Point(355, 254);
+            this.label15.Location = new System.Drawing.Point(339, 221);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(98, 25);
             this.label15.TabIndex = 31;
@@ -372,7 +348,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Poppins", 10F);
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label16.Location = new System.Drawing.Point(542, 254);
+            this.label16.Location = new System.Drawing.Point(526, 221);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(43, 25);
             this.label16.TabIndex = 32;
@@ -385,7 +361,7 @@
             this.bunifuCheckbox6.Checked = false;
             this.bunifuCheckbox6.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox6.Location = new System.Drawing.Point(594, 254);
+            this.bunifuCheckbox6.Location = new System.Drawing.Point(578, 221);
             this.bunifuCheckbox6.Margin = new System.Windows.Forms.Padding(72, 768, 72, 768);
             this.bunifuCheckbox6.Name = "bunifuCheckbox6";
             this.bunifuCheckbox6.Size = new System.Drawing.Size(20, 20);
@@ -399,7 +375,7 @@
             this.bunifuCheckbox7.Checked = false;
             this.bunifuCheckbox7.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox7.Location = new System.Drawing.Point(898, 254);
+            this.bunifuCheckbox7.Location = new System.Drawing.Point(882, 221);
             this.bunifuCheckbox7.Margin = new System.Windows.Forms.Padding(108, 1536, 108, 1536);
             this.bunifuCheckbox7.Name = "bunifuCheckbox7";
             this.bunifuCheckbox7.Size = new System.Drawing.Size(20, 20);
@@ -411,7 +387,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Poppins", 10F);
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label17.Location = new System.Drawing.Point(846, 254);
+            this.label17.Location = new System.Drawing.Point(830, 221);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(43, 25);
             this.label17.TabIndex = 54;
@@ -422,7 +398,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Poppins", 10F);
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label18.Location = new System.Drawing.Point(659, 254);
+            this.label18.Location = new System.Drawing.Point(643, 221);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(110, 25);
             this.label18.TabIndex = 53;
@@ -435,7 +411,7 @@
             this.bunifuCheckbox8.Checked = false;
             this.bunifuCheckbox8.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox8.Location = new System.Drawing.Point(898, 229);
+            this.bunifuCheckbox8.Location = new System.Drawing.Point(882, 196);
             this.bunifuCheckbox8.Margin = new System.Windows.Forms.Padding(72, 768, 72, 768);
             this.bunifuCheckbox8.Name = "bunifuCheckbox8";
             this.bunifuCheckbox8.Size = new System.Drawing.Size(20, 20);
@@ -447,7 +423,7 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Poppins", 10F);
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label19.Location = new System.Drawing.Point(846, 229);
+            this.label19.Location = new System.Drawing.Point(830, 196);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(43, 25);
             this.label19.TabIndex = 51;
@@ -458,7 +434,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Poppins", 10F);
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label20.Location = new System.Drawing.Point(659, 229);
+            this.label20.Location = new System.Drawing.Point(643, 196);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(99, 25);
             this.label20.TabIndex = 50;
@@ -471,7 +447,7 @@
             this.bunifuCheckbox9.Checked = false;
             this.bunifuCheckbox9.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox9.Location = new System.Drawing.Point(898, 204);
+            this.bunifuCheckbox9.Location = new System.Drawing.Point(882, 171);
             this.bunifuCheckbox9.Margin = new System.Windows.Forms.Padding(48, 384, 48, 384);
             this.bunifuCheckbox9.Name = "bunifuCheckbox9";
             this.bunifuCheckbox9.Size = new System.Drawing.Size(20, 20);
@@ -483,7 +459,7 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Poppins", 10F);
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label21.Location = new System.Drawing.Point(846, 204);
+            this.label21.Location = new System.Drawing.Point(830, 171);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(43, 25);
             this.label21.TabIndex = 48;
@@ -494,7 +470,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Poppins", 10F);
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label22.Location = new System.Drawing.Point(659, 204);
+            this.label22.Location = new System.Drawing.Point(643, 171);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(86, 25);
             this.label22.TabIndex = 47;
@@ -505,7 +481,7 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Poppins", 10F);
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label23.Location = new System.Drawing.Point(842, 179);
+            this.label23.Location = new System.Drawing.Point(826, 146);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(47, 25);
             this.label23.TabIndex = 46;
@@ -518,7 +494,7 @@
             this.bunifuCheckbox10.Checked = false;
             this.bunifuCheckbox10.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox10.Location = new System.Drawing.Point(898, 179);
+            this.bunifuCheckbox10.Location = new System.Drawing.Point(882, 146);
             this.bunifuCheckbox10.Margin = new System.Windows.Forms.Padding(32, 192, 32, 192);
             this.bunifuCheckbox10.Name = "bunifuCheckbox10";
             this.bunifuCheckbox10.Size = new System.Drawing.Size(20, 20);
@@ -530,7 +506,7 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Poppins", 10F);
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label24.Location = new System.Drawing.Point(659, 179);
+            this.label24.Location = new System.Drawing.Point(643, 146);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(49, 25);
             this.label24.TabIndex = 44;
@@ -542,7 +518,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Poppins", 10F);
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label25.Location = new System.Drawing.Point(849, 154);
+            this.label25.Location = new System.Drawing.Point(833, 121);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(43, 25);
             this.label25.TabIndex = 43;
@@ -555,7 +531,7 @@
             this.bunifuCheckbox11.Checked = false;
             this.bunifuCheckbox11.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox11.Location = new System.Drawing.Point(898, 154);
+            this.bunifuCheckbox11.Location = new System.Drawing.Point(882, 121);
             this.bunifuCheckbox11.Margin = new System.Windows.Forms.Padding(21, 96, 21, 96);
             this.bunifuCheckbox11.Name = "bunifuCheckbox11";
             this.bunifuCheckbox11.Size = new System.Drawing.Size(20, 20);
@@ -567,7 +543,7 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Poppins", 10F);
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label26.Location = new System.Drawing.Point(659, 154);
+            this.label26.Location = new System.Drawing.Point(643, 121);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(83, 25);
             this.label26.TabIndex = 41;
@@ -578,7 +554,7 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Poppins", 10F);
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label27.Location = new System.Drawing.Point(848, 129);
+            this.label27.Location = new System.Drawing.Point(832, 96);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(43, 25);
             this.label27.TabIndex = 40;
@@ -591,7 +567,7 @@
             this.bunifuCheckbox12.Checked = false;
             this.bunifuCheckbox12.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox12.Location = new System.Drawing.Point(898, 129);
+            this.bunifuCheckbox12.Location = new System.Drawing.Point(882, 96);
             this.bunifuCheckbox12.Margin = new System.Windows.Forms.Padding(14, 48, 14, 48);
             this.bunifuCheckbox12.Name = "bunifuCheckbox12";
             this.bunifuCheckbox12.Size = new System.Drawing.Size(20, 20);
@@ -603,7 +579,7 @@
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Poppins", 10F);
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label28.Location = new System.Drawing.Point(659, 129);
+            this.label28.Location = new System.Drawing.Point(643, 96);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(105, 25);
             this.label28.TabIndex = 38;
@@ -614,7 +590,7 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Poppins", 10F);
             this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label29.Location = new System.Drawing.Point(850, 104);
+            this.label29.Location = new System.Drawing.Point(834, 71);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(39, 25);
             this.label29.TabIndex = 37;
@@ -627,7 +603,7 @@
             this.bunifuCheckbox13.Checked = false;
             this.bunifuCheckbox13.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox13.Location = new System.Drawing.Point(898, 104);
+            this.bunifuCheckbox13.Location = new System.Drawing.Point(882, 71);
             this.bunifuCheckbox13.Margin = new System.Windows.Forms.Padding(9, 24, 9, 24);
             this.bunifuCheckbox13.Name = "bunifuCheckbox13";
             this.bunifuCheckbox13.Size = new System.Drawing.Size(20, 20);
@@ -639,7 +615,7 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Poppins", 10F);
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label30.Location = new System.Drawing.Point(659, 104);
+            this.label30.Location = new System.Drawing.Point(643, 71);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(86, 25);
             this.label30.TabIndex = 35;
@@ -649,7 +625,7 @@
             // 
             this.label31.AutoSize = true;
             this.label31.ForeColor = System.Drawing.Color.Orange;
-            this.label31.Location = new System.Drawing.Point(659, 78);
+            this.label31.Location = new System.Drawing.Point(643, 45);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(129, 26);
             this.label31.TabIndex = 34;
@@ -662,7 +638,7 @@
             this.bunifuCheckbox14.Checked = false;
             this.bunifuCheckbox14.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox14.Location = new System.Drawing.Point(270, 254);
+            this.bunifuCheckbox14.Location = new System.Drawing.Point(254, 221);
             this.bunifuCheckbox14.Margin = new System.Windows.Forms.Padding(108, 1536, 108, 1536);
             this.bunifuCheckbox14.Name = "bunifuCheckbox14";
             this.bunifuCheckbox14.Size = new System.Drawing.Size(20, 20);
@@ -674,7 +650,7 @@
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Poppins", 10F);
             this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label32.Location = new System.Drawing.Point(215, 254);
+            this.label32.Location = new System.Drawing.Point(199, 221);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(43, 25);
             this.label32.TabIndex = 76;
@@ -685,7 +661,7 @@
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Poppins", 10F);
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label33.Location = new System.Drawing.Point(28, 254);
+            this.label33.Location = new System.Drawing.Point(12, 221);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(98, 25);
             this.label33.TabIndex = 75;
@@ -698,7 +674,7 @@
             this.bunifuCheckbox15.Checked = false;
             this.bunifuCheckbox15.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox15.Location = new System.Drawing.Point(270, 229);
+            this.bunifuCheckbox15.Location = new System.Drawing.Point(254, 196);
             this.bunifuCheckbox15.Margin = new System.Windows.Forms.Padding(72, 768, 72, 768);
             this.bunifuCheckbox15.Name = "bunifuCheckbox15";
             this.bunifuCheckbox15.Size = new System.Drawing.Size(20, 20);
@@ -710,7 +686,7 @@
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Poppins", 10F);
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label34.Location = new System.Drawing.Point(215, 229);
+            this.label34.Location = new System.Drawing.Point(199, 196);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(43, 25);
             this.label34.TabIndex = 73;
@@ -721,7 +697,7 @@
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Poppins", 10F);
             this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label35.Location = new System.Drawing.Point(28, 229);
+            this.label35.Location = new System.Drawing.Point(12, 196);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(59, 25);
             this.label35.TabIndex = 72;
@@ -734,7 +710,7 @@
             this.bunifuCheckbox16.Checked = false;
             this.bunifuCheckbox16.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox16.Location = new System.Drawing.Point(270, 204);
+            this.bunifuCheckbox16.Location = new System.Drawing.Point(254, 171);
             this.bunifuCheckbox16.Margin = new System.Windows.Forms.Padding(48, 384, 48, 384);
             this.bunifuCheckbox16.Name = "bunifuCheckbox16";
             this.bunifuCheckbox16.Size = new System.Drawing.Size(20, 20);
@@ -746,7 +722,7 @@
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Poppins", 10F);
             this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label36.Location = new System.Drawing.Point(215, 204);
+            this.label36.Location = new System.Drawing.Point(199, 171);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(43, 25);
             this.label36.TabIndex = 70;
@@ -757,7 +733,7 @@
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Poppins", 10F);
             this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label37.Location = new System.Drawing.Point(28, 204);
+            this.label37.Location = new System.Drawing.Point(12, 171);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(72, 25);
             this.label37.TabIndex = 69;
@@ -768,7 +744,7 @@
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Poppins", 10F);
             this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label38.Location = new System.Drawing.Point(211, 179);
+            this.label38.Location = new System.Drawing.Point(195, 146);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(47, 25);
             this.label38.TabIndex = 68;
@@ -781,7 +757,7 @@
             this.bunifuCheckbox17.Checked = false;
             this.bunifuCheckbox17.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox17.Location = new System.Drawing.Point(270, 179);
+            this.bunifuCheckbox17.Location = new System.Drawing.Point(254, 146);
             this.bunifuCheckbox17.Margin = new System.Windows.Forms.Padding(32, 192, 32, 192);
             this.bunifuCheckbox17.Name = "bunifuCheckbox17";
             this.bunifuCheckbox17.Size = new System.Drawing.Size(20, 20);
@@ -793,7 +769,7 @@
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Poppins", 10F);
             this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label39.Location = new System.Drawing.Point(28, 179);
+            this.label39.Location = new System.Drawing.Point(12, 146);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(87, 25);
             this.label39.TabIndex = 66;
@@ -804,7 +780,7 @@
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Poppins", 10F);
             this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label40.Location = new System.Drawing.Point(211, 154);
+            this.label40.Location = new System.Drawing.Point(195, 121);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(47, 25);
             this.label40.TabIndex = 65;
@@ -817,7 +793,7 @@
             this.bunifuCheckbox18.Checked = false;
             this.bunifuCheckbox18.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox18.Location = new System.Drawing.Point(270, 154);
+            this.bunifuCheckbox18.Location = new System.Drawing.Point(254, 121);
             this.bunifuCheckbox18.Margin = new System.Windows.Forms.Padding(21, 96, 21, 96);
             this.bunifuCheckbox18.Name = "bunifuCheckbox18";
             this.bunifuCheckbox18.Size = new System.Drawing.Size(20, 20);
@@ -829,7 +805,7 @@
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Poppins", 10F);
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label41.Location = new System.Drawing.Point(28, 154);
+            this.label41.Location = new System.Drawing.Point(12, 121);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(46, 25);
             this.label41.TabIndex = 63;
@@ -840,7 +816,7 @@
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Poppins", 10F);
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label42.Location = new System.Drawing.Point(211, 129);
+            this.label42.Location = new System.Drawing.Point(195, 96);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(47, 25);
             this.label42.TabIndex = 62;
@@ -853,7 +829,7 @@
             this.bunifuCheckbox19.Checked = false;
             this.bunifuCheckbox19.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox19.Location = new System.Drawing.Point(270, 129);
+            this.bunifuCheckbox19.Location = new System.Drawing.Point(254, 96);
             this.bunifuCheckbox19.Margin = new System.Windows.Forms.Padding(14, 48, 14, 48);
             this.bunifuCheckbox19.Name = "bunifuCheckbox19";
             this.bunifuCheckbox19.Size = new System.Drawing.Size(20, 20);
@@ -865,7 +841,7 @@
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Poppins", 10F);
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label43.Location = new System.Drawing.Point(28, 129);
+            this.label43.Location = new System.Drawing.Point(12, 96);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(87, 25);
             this.label43.TabIndex = 60;
@@ -876,7 +852,7 @@
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Poppins", 10F);
             this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label44.Location = new System.Drawing.Point(219, 104);
+            this.label44.Location = new System.Drawing.Point(203, 71);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(39, 25);
             this.label44.TabIndex = 59;
@@ -889,7 +865,7 @@
             this.bunifuCheckbox20.Checked = false;
             this.bunifuCheckbox20.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.bunifuCheckbox20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuCheckbox20.Location = new System.Drawing.Point(270, 104);
+            this.bunifuCheckbox20.Location = new System.Drawing.Point(254, 71);
             this.bunifuCheckbox20.Margin = new System.Windows.Forms.Padding(9, 24, 9, 24);
             this.bunifuCheckbox20.Name = "bunifuCheckbox20";
             this.bunifuCheckbox20.Size = new System.Drawing.Size(20, 20);
@@ -901,7 +877,7 @@
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Poppins", 10F);
             this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label45.Location = new System.Drawing.Point(28, 104);
+            this.label45.Location = new System.Drawing.Point(12, 71);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(112, 25);
             this.label45.TabIndex = 57;
@@ -911,7 +887,7 @@
             // 
             this.label46.AutoSize = true;
             this.label46.ForeColor = System.Drawing.Color.Orange;
-            this.label46.Location = new System.Drawing.Point(28, 78);
+            this.label46.Location = new System.Drawing.Point(12, 45);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(86, 26);
             this.label46.TabIndex = 56;
@@ -921,7 +897,7 @@
             // 
             this.label47.AutoSize = true;
             this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label47.Location = new System.Drawing.Point(589, 325);
+            this.label47.Location = new System.Drawing.Point(573, 292);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(83, 26);
             this.label47.TabIndex = 78;
@@ -944,7 +920,7 @@
             "Masa 8",
             "Masa 9",
             "Masa 10"});
-            this.comboBox1.Location = new System.Drawing.Point(678, 322);
+            this.comboBox1.Location = new System.Drawing.Point(662, 289);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(86, 34);
             this.comboBox1.TabIndex = 79;
@@ -960,14 +936,13 @@
             // 
             this.bunifuDragControl2.Fixed = true;
             this.bunifuDragControl2.Horizontal = true;
-            this.bunifuDragControl2.TargetControl = this.pictureBox1;
             this.bunifuDragControl2.Vertical = true;
             // 
             // label48
             // 
             this.label48.AutoSize = true;
             this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.label48.Location = new System.Drawing.Point(589, 372);
+            this.label48.Location = new System.Drawing.Point(573, 339);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(112, 26);
             this.label48.TabIndex = 80;
@@ -977,7 +952,7 @@
             // 
             this.label49.AutoSize = true;
             this.label49.ForeColor = System.Drawing.Color.Orange;
-            this.label49.Location = new System.Drawing.Point(707, 372);
+            this.label49.Location = new System.Drawing.Point(691, 339);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(39, 26);
             this.label49.TabIndex = 81;
@@ -1001,7 +976,7 @@
             this.btnGirisYap.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.btnGirisYap.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
             this.btnGirisYap.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(238)))), ((int)(((byte)(229)))));
-            this.btnGirisYap.Location = new System.Drawing.Point(773, 325);
+            this.btnGirisYap.Location = new System.Drawing.Point(757, 292);
             this.btnGirisYap.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.btnGirisYap.Name = "btnGirisYap";
             this.btnGirisYap.Size = new System.Drawing.Size(145, 57);
@@ -1019,7 +994,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.ClientSize = new System.Drawing.Size(1183, 424);
+            this.ClientSize = new System.Drawing.Size(941, 384);
             this.Controls.Add(this.btnGirisYap);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.label48);
@@ -1091,22 +1066,19 @@
             this.Controls.Add(this.beniHatirla);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.MaximizeBox = false;
             this.Name = "frmAddProduct";
-            this.Text = "frmAddProduct";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Kafe Yönetimi - Ürün Ekle";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox1;

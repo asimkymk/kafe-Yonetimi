@@ -29,6 +29,7 @@ namespace kafeyonetimi
         private void frmTableInfo_Load(object sender, EventArgs e)
         {
             label1.Text = table.masahesap.ToString() + " TL";
+            this.Text = "Kafe Yönetimi - Satış Yap " + "Masa " + table.masano.ToString();
         }
         private bool cafeGuncelle()
         {
@@ -111,11 +112,25 @@ namespace kafeyonetimi
 
         private void btnGirisYap_Click(object sender, EventArgs e)
         {
-            if (masaGuncelle())
+            DialogResult dialogResult = MessageBox.Show("Bu masada satış yapmak istediğine emin misin?", "Satış Yap", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
             {
-                mainForm.masaGuncelle();
-                this.Hide();
+                if (masaGuncelle())
+                {
+                    mainForm.masaGuncelle();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Satış gerçekleştirilirken bir ahta meydana geldi.", "Hata",
+                                                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+            else if (dialogResult == DialogResult.No)
+            {
+
+            }
+            
         }
     }
 }
